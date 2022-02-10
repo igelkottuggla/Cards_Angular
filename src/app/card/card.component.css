@@ -1,0 +1,24 @@
+.card {
+  width: 350px;
+  margin: 0 10px 20px;
+}
+
+.card-content {
+  min-height: 150px;
+}
+
+.card img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .card {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  .card img {
+    height: auto;
+  }
+}

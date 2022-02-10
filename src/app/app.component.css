@@ -1,0 +1,6 @@
+:host {
+  padding: 50px 15px 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
